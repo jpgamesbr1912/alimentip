@@ -1,0 +1,67 @@
+@media only screen and (max-width: 480px) {
+  form:first-child {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  main form:first-child div {
+    border-radius: 0.5rem;
+    border: #F59A23 solid 2px;
+  }
+
+  input[type="radio"] {
+    accent-color: #72A046;
+  }
+  
+  main form:first-child label {
+    color: #333
+  }
+
+  h2 {
+    margin-top: 4vw;
+    font-weight: bold;
+  }
+
+  h2, form div:nth-child(6) label:first-child {
+    color: #72A046
+  }
+
+  input[type="url"],
+  textarea,
+  input[type="tel"] {
+    width: 90vw;
+    min-width: 288px;
+  }
+
+  form div:nth-child(6) label,
+  label[for="foto"],
+  input[type="file"]::file-selector-button,
+  input[type="file"] {
+    color: #555
+  }
+
+  input[type="file"] {
+    display: block;
+    font-size: 0.9rem;
+    max-width: 300px;
+  }
+
+  input[type="file"]::file-selector-button {
+    border-radius: 0.25rem;
+    background-color: #fff;
+    border-color: #555
+  }
+
+  main input[type=reset] {
+    color: #F59A23;
+    border: #72A046 solid 3px;
+    min-width: 90px;
+    margin-right: 4vw;
+    width: 10vw;
+    margin-left: 8vw;
+  }
+
+  #vendedor {
+    display: none;
+  }
+
+}
